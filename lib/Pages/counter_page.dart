@@ -26,12 +26,16 @@ class _CounterPageState extends State<CounterPage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text("You pushed the buttons this many times:"),
+          children: [
+            Text("You pushed the buttons this many times:"),
 
-          //Counter
-          Text(_counter.toString()),
-        ],
+            //Counter
+            Text(_counter.toString(), style: TextStyle(fontSize: 50)),
+
+            //button
+            ElevatedButton(
+                onPressed: _incrementCounter, child: Text("Increement!"))
+          ],
         ),
       ),
     );
