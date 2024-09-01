@@ -4,6 +4,8 @@ import 'package:myapp/Pages/second_page.dart';
 import 'package:myapp/Pages/home_page.dart';
 import 'package:myapp/Pages/profile_page.dart';
 import 'package:myapp/Pages/settings_page.dart';
+import 'package:myapp/Pages/drawer.dart';
+import 'package:myapp/Pages/counter_page.dart';
 
 void main() {
   runApp(const MyApp());

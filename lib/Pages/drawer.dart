@@ -22,7 +22,7 @@ class FirstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("1st Page")),
-      drawer: Drawer(
+      drawer: const Drawer(
         backgroundColor: Colors.white,
         child: Column(
           children: [
@@ -35,12 +35,12 @@ class FirstPage extends StatelessWidget {
             ),
             // ListTiles
             ListTile(
-              leading: const Icon(Icons.home),
-              title: const Text("H O M E"),
+              leading: Icon(Icons.home),
+              title: Text("H O M E"),
             ),
             ListTile(
-              leading: const Icon(Icons.settings),
-              title: const Text("S E T T I N G S"),
+              leading: Icon(Icons.settings),
+              title: Text("S E T T I N G S"),
             ),
           ],
         ),
